@@ -13,7 +13,7 @@ const mapping = {
 const FeatureCard = ({
     icon, title, content, index, len,
 }) => (
-    <div className={`flex flex-col xs:flex-row p-6 rounded-[20px] 
+    <div className={`flex flex-col xs:flex-row p-6 rounded-[20px]
         ${index !== (len - 1) ? 'mb-6' : 'mb-0'} feature-card items-center`}
     >
         <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue mb-5 xs:mb-0`}>

@@ -59,5 +59,7 @@ export default {
         ],
         features_h2: 'You do the business, we’ll handle the money.',
         features_p: 'With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But with hundreds of credit cards on the market.',
+        billing_h2: 'Easily control your billing & invoicing.',
+        billing_p: 'Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea placerat.',
     },
 };

@@ -91,5 +91,25 @@ export default {
         ],
         feedback_h2: 'What people are saying about us',
         feedback_p: 'Everything you need to accept card payments and grow your business anywhere on the planet.',
+        clients: [
+            {
+                id: 'client-1',
+                logo: 'airbnb',
+            },
+            {
+                id: 'client-2',
+                logo: 'binance',
+            },
+            {
+                id: 'client-3',
+                logo: 'coinbase',
+            },
+            {
+                id: 'client-4',
+                logo: 'dropbox',
+            },
+        ],
+        tryOurService: 'Let’s try our service now!',
+        tryOurService_p: 'Everything you need to accept card payments and grow your business anywhere on the planet.',
     },
 };

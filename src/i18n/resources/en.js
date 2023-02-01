@@ -60,9 +60,9 @@ export default {
         features_h2: 'You do the business, we’ll handle the money.',
         features_p: 'With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But with hundreds of credit cards on the market.',
         billing_h2: 'Easily control your billing & invoicing.',
-        billing_p: 'Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea placerat.',
+        billing_p: 'Simplifying your billing and invoicing process and automating it as much as possible will make it quicker and more efficient using our solutions.',
         cardDeal_h2: 'Find a better card deal in few easy steps.',
-        cardDeal_p: 'Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.',
+        cardDeal_p: 'Pick the type of credit card you want. Figure out the most important features. Compare your credit card options.',
         feedbacks: [
             {
                 id: 'feedback-1',
@@ -111,5 +111,109 @@ export default {
         ],
         tryOurService: 'Let’s try our service now!',
         tryOurService_p: 'Everything you need to accept card payments and grow your business anywhere on the planet.',
+        footer_p: 'A new way to make the payments easy, reliable and secure.',
+        footerLinks: [
+            {
+                id: 'footerLink-1',
+                title: 'Useful Links',
+                links: [
+                    {
+                        id: 'usefull-1',
+                        name: 'Content',
+                        link: 'https://www.hoobank.com/content/',
+                    },
+                    {
+                        id: 'usefull-2',
+                        name: 'How it Works',
+                        link: 'https://www.hoobank.com/how-it-works/',
+                    },
+                    {
+                        id: 'usefull-3',
+                        name: 'Create',
+                        link: 'https://www.hoobank.com/create/',
+                    },
+                    {
+                        id: 'usefull-4',
+                        name: 'Explore',
+                        link: 'https://www.hoobank.com/explore/',
+                    },
+                    {
+                        id: 'usefull-5',
+                        name: 'Terms & Services',
+                        link: 'https://www.hoobank.com/terms-and-services/',
+                    },
+                ],
+            },
+            {
+                id: 'footerLink-2',
+                title: 'Community',
+                links: [
+                    {
+                        id: 'community-1',
+                        name: 'Help Center',
+                        link: 'https://www.hoobank.com/help-center/',
+                    },
+                    {
+                        id: 'community-2',
+                        name: 'Partners',
+                        link: 'https://www.hoobank.com/partners/',
+                    },
+                    {
+                        id: 'community-3',
+                        name: 'Suggestions',
+                        link: 'https://www.hoobank.com/suggestions/',
+                    },
+                    {
+                        id: 'community-4',
+                        name: 'Blog',
+                        link: 'https://www.hoobank.com/blog/',
+                    },
+                    {
+                        id: 'community-5',
+                        name: 'Newsletters',
+                        link: 'https://www.hoobank.com/newsletters/',
+                    },
+                ],
+            },
+            {
+                id: 'footerLink-3',
+                title: 'Partner',
+                links: [
+                    {
+                        id: 'partner-1',
+                        name: 'Our Partner',
+                        link: 'https://www.hoobank.com/our-partner/',
+                    },
+                    {
+                        id: 'partner-2',
+                        name: 'Become a Partner',
+                        link: 'https://www.hoobank.com/become-a-partner/',
+                    },
+                ],
+            },
+        ],
+        allRightReserved: '2021 HooBank. All Rights Reserved',
+        socialMedia: [
+            {
+                id: 'social-media-1',
+                icon: 'instagram',
+                link: 'https://www.instagram.com/',
+            },
+            {
+                id: 'social-media-2',
+                icon: 'facebook',
+                link: 'https://www.facebook.com/',
+            },
+            {
+                id: 'social-media-3',
+                icon: 'twitter',
+                link: 'https://www.twitter.com/',
+            },
+            {
+                id: 'social-media-4',
+                icon: 'linkedin',
+                link: 'https://www.linkedin.com/',
+            },
+        ],
     },
 };

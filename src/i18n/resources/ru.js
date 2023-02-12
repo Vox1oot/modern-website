@@ -1,36 +1,36 @@
 export default {
     translation: {
         navLinks: {
-            home: 'Home',
-            features: 'Featutes',
-            product: 'Product',
-            clients: 'Clients',
+            home: 'Домой',
+            features: 'Возможности',
+            product: 'Продукт',
+            clients: 'Клиенты',
         },
-        discount: 'Discount for 1 month account',
+        discount: 'Скидка на 1 месяц использования',
         h1: {
-            next: 'The next',
-            generation: 'Generation',
-            paymentMethod: 'Payment Method',
+            next: 'Метод',
+            generation: 'Оплаты',
+            paymentMethod: 'Нового поколения',
         },
         getStarted: {
-            get: 'Get',
-            started: 'Started',
+            get: 'Начать',
+            started: 'использовать',
         },
-        ourTeam: 'Our team of experts uses a methodology to identify the credit cards most likely to fit your needs. We examine annual percentage rates, annual fees.',
+        ourTeam: 'Наша команда экспертов использует методику, чтобы определить кредитные карты, наиболее подходящие под ваши нужды.',
         stats: [
             {
                 id: 'stats-1',
-                title: 'User active',
+                title: 'Активных пользователей',
                 value: '3800+',
             },
             {
                 id: 'stats-2',
-                title: 'Trusted by company',
+                title: 'Компаний нам довереяют',
                 value: '230+',
             },
             {
                 id: 'stats-3',
-                title: 'Transaction',
+                title: 'Транзакций',
                 value: '230M+',
             },
         ],
@@ -38,36 +38,36 @@ export default {
             {
                 id: 'feature-1',
                 icon: 'star',
-                title: 'Rewards',
+                title: 'Вознагрождения',
                 content:
-                'The best credit cards offer some tantalizing combinations of promotions and prizes',
+                'Лучшие кредитные карты предлагают постоянные акции и призы.',
             },
             {
                 id: 'feature-2',
                 icon: 'shield',
-                title: '100% Secured',
+                title: '100% защита',
                 content:
-                'We take proactive steps make sure your information and transactions are secure.',
+                'Мы принимаем активные меры для обеспечения безопасности ваших данных и транзакций.',
             },
             {
                 id: 'feature-3',
                 icon: 'send',
-                title: 'Balance Transfer',
+                title: 'Перевод остатка',
                 content:
-                'A balance transfer credit card can save you a lot of money in interest charges.',
+                'Карта с возможностью перевода остатка может сэкономить деньги на процентных расходах.',
             },
         ],
-        features_h2: 'You do the business, we’ll handle the money.',
-        features_p: 'With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But with hundreds of credit cards on the market.',
-        billing_h2: 'Easily control your billing & invoicing.',
-        billing_p: 'Simplifying your billing and invoicing process and automating it as much as possible will make it quicker and more efficient using our solutions.',
-        cardDeal_h2: 'Find a better card deal in few easy steps.',
-        cardDeal_p: 'Pick the type of credit card you want. Figure out the most important features. Compare your credit card options.',
+        features_h2: 'Вы занимаетесь бизнесом, мы занимаемся деньгами.',
+        features_p: 'С помощью нашей кредитной карты вы можете улучшить свою финансовую жизнь, получая вознагрождения и экономя деньги.',
+        billing_h2: 'Легко контролировать высталвние счетов и счет-фактур.',
+        billing_p: 'Максимальная автоматизация выставления счет-фактур позволяет ускорить и повысить эффективность использования карты.',
+        cardDeal_h2: 'Найдите лучшее предложение за несколько простых шагов.',
+        cardDeal_p: 'Выберите тип кредитной карты. Определите наиболее важные характеристики. Сравните варианты. ',
         feedbacks: [
             {
                 id: 'feedback-1',
                 content:
-                'Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.',
+                'Деньги - это всего лишь инструмент.',
                 name: 'Herman Jensen',
                 title: 'Founder & Leader',
                 img: 'people01',
@@ -75,7 +75,7 @@ export default {
             {
                 id: 'feedback-2',
                 content:
-                "Money makes your life easier. If you're lucky to have it, you're lucky.",
+                "Деньги облегчают вашу жизнь. Если они у вас есть, то вам повезло.",
                 name: 'Steve Mark',
                 title: 'Founder & Leader',
                 img: 'people02',
@@ -83,14 +83,14 @@ export default {
             {
                 id: 'feedback-3',
                 content:
-                'It is usually people in the money business, finance, and international trade that are really rich.',
+                'Бизнесмены, финансисты действительно богаты.',
                 name: 'Kenn Gallagher',
                 title: 'Founder & Leader',
                 img: 'people03',
             },
         ],
-        feedback_h2: 'What people are saying about us',
-        feedback_p: 'Everything you need to accept card payments and grow your business anywhere on the planet.',
+        feedback_h2: 'Что люди говорят о нас.',
+        feedback_p: 'Все необходимое для приема платежей и развития вашего бизнеса в любой точке планеты.',
         clients: [
             {
                 id: 'client-1',
@@ -109,90 +109,90 @@ export default {
                 logo: 'dropbox',
             },
         ],
-        tryOurService: 'Let’s try our service now!',
-        tryOurService_p: 'Everything you need to accept card payments and grow your business anywhere on the planet.',
-        footer_p: 'A new way to make the payments easy, reliable and secure.',
+        tryOurService: 'Попробуйте наш сервис прямо сейчас!',
+        tryOurService_p: 'Все необходимое для приема платежей и развития вашего бизнеса в любой точке планеты.',
+        footer_p: 'Новый способ сделать платежи легкими, доступными и безопасными.',
         footerLinks: [
             {
                 id: 'footerLink-1',
-                title: 'Useful Links',
+                title: 'Полезное',
                 links: [
                     {
                         id: 'usefull-1',
-                        name: 'Content',
+                        name: 'Информация',
                         link: 'https://www.hoobank.com/content/',
                     },
                     {
                         id: 'usefull-2',
-                        name: 'How it Works',
+                        name: 'Как это работает',
                         link: 'https://www.hoobank.com/how-it-works/',
                     },
                     {
                         id: 'usefull-3',
-                        name: 'Create',
+                        name: 'Создание',
                         link: 'https://www.hoobank.com/create/',
                     },
                     {
                         id: 'usefull-4',
-                        name: 'Explore',
+                        name: 'Исследовать',
                         link: 'https://www.hoobank.com/explore/',
                     },
                     {
                         id: 'usefull-5',
-                        name: 'Terms & Services',
+                        name: 'Сервис',
                         link: 'https://www.hoobank.com/terms-and-services/',
                     },
                 ],
             },
             {
                 id: 'footerLink-2',
-                title: 'Community',
+                title: 'Сообщество',
                 links: [
                     {
                         id: 'community-1',
-                        name: 'Help Center',
+                        name: 'Техподдержка',
                         link: 'https://www.hoobank.com/help-center/',
                     },
                     {
                         id: 'community-2',
-                        name: 'Partners',
+                        name: 'Партнеры',
                         link: 'https://www.hoobank.com/partners/',
                     },
                     {
                         id: 'community-3',
-                        name: 'Suggestions',
+                        name: 'Предложения',
                         link: 'https://www.hoobank.com/suggestions/',
                     },
                     {
                         id: 'community-4',
-                        name: 'Blog',
+                        name: 'Блог',
                         link: 'https://www.hoobank.com/blog/',
                     },
                     {
                         id: 'community-5',
-                        name: 'Newsletters',
+                        name: 'Новости',
                         link: 'https://www.hoobank.com/newsletters/',
                     },
                 ],
             },
             {
                 id: 'footerLink-3',
-                title: 'Partner',
+                title: 'Партнеры',
                 links: [
                     {
                         id: 'partner-1',
-                        name: 'Our Partner',
+                        name: 'Наши партнеры',
                         link: 'https://www.hoobank.com/our-partner/',
                     },
                     {
                         id: 'partner-2',
-                        name: 'Become a Partner',
+                        name: 'Стать партнером',
                         link: 'https://www.hoobank.com/become-a-partner/',
                     },
                 ],
             },
         ],
-        allRightReserved: '2021 HooBank. All Rights Reserved',
+        allRightReserved: '2021 HooBank. Все права защищены.',
         socialMedia: [
             {
                 id: 'social-media-1',

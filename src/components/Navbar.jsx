@@ -3,8 +3,17 @@ import { useTranslation } from 'react-i18next';
 import { close, logo, menu } from '../assets';
 
 const Navbar = () => {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
     const [toggle, setToggle] = useState(false);
+    const [language, setLanguage] = useState(i18n.language);
+
+    console.log(language);
+
+    const toggleLanguage = () => {
+        const nextLanguage = language === 'en' ? 'ru' : 'en';
+        i18n.changeLanguage(nextLanguage);
+        setLanguage(nextLanguage);
+    }
 
     return (
         <nav className="w-full flex py-6 justify-between items-center navbar">
@@ -14,7 +23,13 @@ const Navbar = () => {
                 <li className="font-poppins cursor-pointer text-[18px] text-white mr-10"><a href="#home">{t('navLinks.home')}</a></li>
                 <li className="font-poppins cursor-pointer text-[18px] text-white mr-10"><a href="#features">{t('navLinks.features')}</a></li>
                 <li className="font-poppins cursor-pointer text-[18px] text-white mr-10"><a href="#product">{t('navLinks.product')}</a></li>
-                <li className="font-poppins cursor-pointer text-[18px] text-white"><a href="#clients">{t('navLinks.clients')}</a></li>
+                <li className="font-poppins cursor-pointer text-[18px] text-white mr-10"><a href="#clients">{t('navLinks.clients')}</a></li>
+                <button 
+                    className='text-white'
+                    onClick={toggleLanguage}
+                >
+                    {language}
+                </button>
             </ul>
 
             <div className="sm:hidden flex flex-1 justify-end items-center">
